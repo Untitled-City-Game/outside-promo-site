@@ -21,7 +21,7 @@ content:
     path: src/content/home/-index.md
     type: file
   - name: pages
-    label: pages
+    label: Site Pages
     path: src/content
     type: collection
     fields:
