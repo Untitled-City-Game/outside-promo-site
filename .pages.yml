@@ -24,3 +24,17 @@ content:
     label: pages
     path: src/content
     type: collection
+    fields:
+      - name: title
+        label: Title
+        type: text
+        required: true
+      - name: description
+        label: Description
+        type: text
+      - name: image
+        label: Image
+        type: file
+      - name: draft
+        label: Draft
+        type: boolean
