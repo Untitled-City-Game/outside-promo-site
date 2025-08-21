@@ -65,7 +65,6 @@ content:
     label: Blog
     path: src/content/blog
     type: collection
-    format: yaml
     fields: 
       - name: title
         label: Title
