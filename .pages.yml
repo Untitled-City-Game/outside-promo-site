@@ -12,14 +12,6 @@ content:
       - name: description
         label: Description
         type: text
-  - name: about
-    label: About
-    path: src/content/about/-index.md
-    type: file
-  - name: home
-    label: Home
-    path: src/content/home/-index.md
-    type: file
   - name: pages
     label: Site Pages
     path: src/content
