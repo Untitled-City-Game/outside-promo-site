@@ -38,7 +38,28 @@ content:
     path: src/content/home/-index.md
     type: file
     fields:
-      - name: sitepage
+      - name: Fields
+        component: sitepage
+  - name: about-game
+    label: About the game
+    path: src/content/about/-index.md
+    type: file
+    fields:
+      - name: Fields
+        component: sitepage
+  - name: about-us
+    label: About us
+    path: src/content/about_us/-index.md
+    type: file
+    fields:
+      - name: Fields
+        component: sitepage
+  - name: playtest
+    label: Become a playtester
+    path: src/content/playtest/-index.md
+    type: file
+    fields:
+      - name: Fields
         component: sitepage
   - name: blog
     label: Blog
@@ -52,3 +73,6 @@ content:
       - name: description
         label: Description
         type: text
+      - name: date
+        label: Date
+        type: date
