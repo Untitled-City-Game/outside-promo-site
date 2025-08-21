@@ -1,5 +1,45 @@
+components:
+  button:
+    label: Button
+    type: object
+    fields:
+    - name: label
+      label: Button text
+      type: text
+    - name: link
+      label: Link
+      type: text
+  sitepage:
+    label: Site page
+    type: object
+    fields:
+    - name: title
+      label: Title
+      type: text
+      required: true
+    - name: description
+      label: Description
+      type: text
+    - name: image
+      label: Image
+      type: file
+    - name: imageAlt
+      label: Image alt text
+      type: text
+    - name: draft
+      label: Draft
+      type: boolean
+    - name: button
+      component: button
 media: src/assets
 content:
+  - name: home
+    label: Home
+    path: src/content/home/-index.md
+    type: file
+    fields:
+      - name: sitepage
+        component: sitepage
   - name: blog
     label: Blog
     path: src/content/blog
@@ -12,21 +52,3 @@ content:
       - name: description
         label: Description
         type: text
-  - name: pages
-    label: Site Pages
-    path: src/content/
-    type: collection
-    fields:
-      - name: title
-        label: Title
-        type: text
-        required: true
-      - name: description
-        label: Description
-        type: text
-      - name: image
-        label: Image
-        type: file
-      - name: draft
-        label: Draft
-        type: boolean
