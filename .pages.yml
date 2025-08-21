@@ -11,51 +11,10 @@ components:
       type: text   
 media: src/assets
 content:
-  - name: home
+  - name: Home
+    type: file
     label: Home
     path: src/content/home/-index.md
-    type: file
-    fields:
-      - name: Fields
-        component: sitepage
-  - name: about
-    label: About the game
-    path: src/content/about/-index.md
-    type: file
-    fields:
-      - name: Fields
-        component: sitepage
-  - name: about-us
-    label: About us
-    path: src/content/about_us/-index.md
-    type: file
-    fields:
-      - name: Fields
-        component: sitepage
-  
-  - name: blog
-    label: Blog
-    path: src/content/blog
-    type: collection
-    fields: 
-      - name: title
-        label: Title
-        type: text
-        required: true
-      - name: description
-        label: Description
-        type: text
-      - name: date
-        label: Date
-        type: date
-      - name: body
-        type: rich-text
-        required: true
-
-  - name: site-pages
-    type: collection
-    label: Site pages
-    path: src/content
     fields:
     - name: title
       label: Title
@@ -77,3 +36,98 @@ content:
       component: button
     - name: body
       type: rich-text
+  - name: playtest
+    type: file
+    label: Become a Playtester
+    path: src/content/playtest/-index.md
+    fields:
+    - name: title
+      label: Title
+      type: text
+      required: true
+    - name: description
+      label: Description
+      type: text
+    - name: image
+      label: Image
+      type: file
+    - name: imageAlt
+      label: Image alt text
+      type: text
+    - name: draft
+      label: Draft
+      type: boolean
+    - name: button
+      component: button
+    - name: body
+      type: rich-text
+  - name: about
+    label: About the game
+    path: src/content/about/-index.md
+    type: file
+    fields:
+        - name: title
+          label: Title
+          type: text
+          required: true
+        - name: description
+          label: Description
+          type: text
+        - name: image
+          label: Image
+          type: file
+        - name: imageAlt
+          label: Image alt text
+          type: text
+        - name: draft
+          label: Draft
+          type: boolean
+        - name: button
+          component: button
+        - name: body
+          type: rich-text
+  - name: about-us
+    label: About us
+    path: src/content/about_us/-index.md
+    type: file
+    fields:
+        - name: title
+          label: Title
+          type: text
+          required: true
+        - name: description
+          label: Description
+          type: text
+        - name: image
+          label: Image
+          type: file
+        - name: imageAlt
+          label: Image alt text
+          type: text
+        - name: draft
+          label: Draft
+          type: boolean
+        - name: button
+          component: button
+        - name: body
+          type: rich-text
+  
+  - name: blog
+    label: Blog
+    path: src/content/blog
+    type: collection
+    fields: 
+      - name: title
+        label: Title
+        type: text
+        required: true
+      - name: description
+        label: Description
+        type: text
+      - name: date
+        label: Date
+        type: date
+      - name: body
+        type: rich-text
+        required: true
+
