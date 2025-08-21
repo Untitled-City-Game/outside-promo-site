@@ -1,0 +1,22 @@
+media: src/assets
+content:
+  - name: blog
+    label: Blog
+    path: src/content/blog
+    type: collection
+    fields: 
+      - name: title
+        label: Title
+        type: text
+        required: true
+      - name: description
+        label: Description
+        type: text
+  - name: about
+    label: About
+    path: src/content/about
+    type: file
+  - name: home
+    label: Home
+    path: src/content/home
+    type: file
