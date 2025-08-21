@@ -31,6 +31,9 @@ components:
       type: boolean
     - name: button
       component: button
+    - name: body
+      type: rich-text
+      required: true
 media: src/assets
 content:
   - name: home
