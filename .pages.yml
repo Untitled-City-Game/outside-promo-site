@@ -42,7 +42,7 @@ content:
     fields:
       - name: Fields
         component: sitepage
-  - name: about-game
+  - name: about
     label: About the game
     path: src/content/about/-index.md
     type: file
