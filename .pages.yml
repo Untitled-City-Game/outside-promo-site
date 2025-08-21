@@ -76,3 +76,6 @@ content:
       - name: date
         label: Date
         type: date
+      - name: body
+        type: text
+        required: true
