@@ -20,3 +20,7 @@ content:
     label: Home
     path: src/content/home/-index.md
     type: file
+  - name: pages
+    label: pages
+    path: src/content
+    type: collection
