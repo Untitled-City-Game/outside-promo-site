@@ -1,4 +1,4 @@
 ---
-title: Poetry
+title: content
 description: Jane's poems
 ---

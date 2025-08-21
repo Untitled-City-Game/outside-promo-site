@@ -1,0 +1,12 @@
+---
+import CollectionLayout from "@components/content/CollectionLayout.astro";
+import { getEntries } from "@lib/contentParser";
+import { sortByDate } from "@lib/sortFunctions";
+import type { contentEntry } from "@/types";
+import { getIndex } from "@lib/contentParser";
+
+const entryIndex = (await getIndex("content")) as contentEntry;
+const entries = (await getEntries("content", sortByDate)) as contentEntry[];
+---
+
+<CollectionLayout entryIndex={entryIndex} entries={entries} />
