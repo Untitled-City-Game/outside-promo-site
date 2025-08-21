@@ -1,9 +1,9 @@
 ---
-image: "@assets/astrogon-star.svg"
+# image: "@assets/astrogon-star.svg"
 imageAlt: Astrogon logo
-title: Astrogon
-content: A rapidly-customizable template for a blog, documentation, and more.
+title: "Outside: The Game"
+content: It's a board game, but outside.
 button:
-  label: See the Code
+  label: Play Now
   link: https://github.com/astrogon/astrogon
 ---
