@@ -56,7 +56,6 @@ content:
     type: collection
     label: Site pages
     path: src/content
-    exclude: [blog, docs]
     subfolders: false
     fields:
     - name: title
