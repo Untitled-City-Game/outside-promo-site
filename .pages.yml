@@ -14,7 +14,7 @@ content:
         type: text
   - name: pages
     label: Site Pages
-    path: src/content/*
+    path: src/content/
     type: collection
     fields:
       - name: title
