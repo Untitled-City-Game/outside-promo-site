@@ -20,7 +20,7 @@ content:
       label: Title
       type: text
       required: true
-    - name: description
+    - name: content
       label: Description
       type: text
     - name: image
